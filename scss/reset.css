@@ -1,0 +1,43 @@
+/*
+Error: Invalid CSS after "  border: none;": expected "}", was ""
+        on line 46 of scss/reset.scss
+
+41: em, i {
+42:   font-style: italic;
+43: }
+44: a img {
+45:   border: none;
+
+Backtrace:
+scss/reset.scss:46
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:679:in `block'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/Zac/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  border: none;\": expected \"}\", was \"\"\A         on line 46 of scss/reset.scss\A \A 41: em, i {\A 42:   font-style: italic;\A 43: }\A 44: a img {\A 45:   border: none;"; }
