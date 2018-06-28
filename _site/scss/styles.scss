@@ -4,18 +4,21 @@
 .hero .main_content {
   display: flex;
   }
+li {
+  list-style: none;
+}
 
 
 /*-----Header styles------*/
 .hero {
   background-color: red;
-  height: 90vh;
+  height: 100vh;
   flex-direction: row;
 }
 .hero:after {
   content: "ᐶ";
   position: absolute;
-  top: 85vh;
+  top: 90vh;
   right: 50vw;
   color: green;
   font-size: 4em;
@@ -45,22 +48,28 @@ nav {
 .main_content {
   flex-direction: column;
 }
+.about_content, .product_content,
+ .app_content, .order_content {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
 
+/*-----Intro bar styles------*/
+.intro_bar {
+  height: 40vh;
+  background-color: #fff;
+}
 
 /*-----About Section styles------*/
 .about_content {
   background-color: violet;
-  display: flex;
-  flex-direction: row;
-  height: 50vh;
 }
 .about_bar {
   background-color: lime;
-  height: 100%;
-  width: 45%;
+  width: 42%;
 }
 .doggo_1 {
   background-color: orange;
-  height: 100%;
-  width: 55%;
+  width: 58%;
 }
