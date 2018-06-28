@@ -1,0 +1,40 @@
+
+
+/*-----Global Styles-----*/
+.hero .main_content {
+  display: flex;
+  }
+
+
+/*-----Header styles------*/
+.hero {
+  background-color: red;
+  height: 90vh;
+}
+.hero:after {
+  content: "ᐶ";
+  position: absolute;
+  top: 85vh;
+  right: 50vw;
+  color: green;
+  font-size: 4em;
+  transform: rotate(90deg);
+}
+.hero h1 {
+  font-size: 5em;
+  padding: 1.5vh;
+  background-color: blue;
+}
+nav {
+  background-color: purple;
+  float: right;
+  margin: -12vh 2vw 0 0;
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      padding: 0vh .5vw;
+      font-size: 1.5em;
+    }
+  }
+}
