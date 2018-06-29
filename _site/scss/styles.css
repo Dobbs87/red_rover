@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /*-----Global Styles-----*/
+@font-face {
+  font-family: 'Renner 800 Heavy';
+  src: url(fonts/Renner-800-Heavy.otf); }
+@font-face {
+  font-family: 'Renner 800 Heavy';
+  src: url("fonts/renner-800-heavy.otf"); }
 .hero .main_content {
   display: flex; }
 
@@ -22,6 +28,7 @@ li {
   transform: rotate(90deg); }
 
 .hero h1 {
+  font: 100% "Renner 800 Heavy";
   font-size: 5em;
   padding: 1.5vh;
   background-color: blue; }
