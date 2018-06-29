@@ -7,10 +7,10 @@
 }
 
 @font-face {
-  font-family: 'Renner 800 Heavy';
-  src: url('fonts/renner-800-heavy.otf');
+  font-family: 'Renner 600 Semi';
+  src: url('/fonts/OpenType/Renner 600 Semi.otf');
 }
-$font-stack: 'Renner 800 Heavy';
+$font-stack: 'Renner 600 Semi';
 
 .hero .main_content {
   display: flex;
@@ -22,7 +22,7 @@ li {
 
 /*-----Header styles------*/
 .hero {
-  background-color: red;
+  background-image: url();
   height: 100vh;
   flex-direction: row;
 }

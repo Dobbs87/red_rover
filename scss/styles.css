@@ -4,8 +4,8 @@
   font-family: 'Renner 800 Heavy';
   src: url(fonts/Renner-800-Heavy.otf); }
 @font-face {
-  font-family: 'Renner 800 Heavy';
-  src: url("fonts/renner-800-heavy.otf"); }
+  font-family: 'Renner 600 Semi';
+  src: url("/fonts/OpenType/Renner 600 Semi.otf"); }
 .hero .main_content {
   display: flex; }
 
@@ -14,7 +14,7 @@ li {
 
 /*-----Header styles------*/
 .hero {
-  background-color: red;
+  background-image: url();
   height: 100vh;
   flex-direction: row; }
 
@@ -28,7 +28,7 @@ li {
   transform: rotate(90deg); }
 
 .hero h1 {
-  font: 100% "Renner 800 Heavy";
+  font: 100% "Renner 600 Semi";
   font-size: 5em;
   padding: 1.5vh;
   background-color: blue; }
