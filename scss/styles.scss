@@ -20,7 +20,7 @@ li {
   position: absolute;
   top: 90vh;
   right: 50vw;
-  color: green;
+  color: white;
   font-size: 4em;
   transform: rotate(90deg);
 }
@@ -49,27 +49,96 @@ nav {
   flex-direction: column;
 }
 .about_content, .product_content,
- .app_content, .order_content {
+.app_content, .app_content,
+.order_content {
   display: flex;
   flex-direction: row;
-  height: 60vh;
+  height: 75vh;
 }
 
 /*-----Intro bar styles------*/
 .intro_bar {
-  height: 40vh;
+  height: 50vh;
   background-color: #fff;
 }
 
-/*-----About Section styles------*/
-.about_content {
-  background-color: violet;
+/*-----Features styles------*/
+.features {
+  padding: 8vh 5vw;
+  background-color: orange;
 }
+.features_list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.feature {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+/*-----About Content styles------*/
 .about_bar {
   background-color: lime;
+  height: 100%;
   width: 42%;
 }
 .doggo_1 {
-  background-color: orange;
+  background-color: skyblue;
+  height: 100%;
   width: 58%;
+}
+
+/*-----Product Content styles------*/
+.product_bar {
+  background-color: pink;
+  height: 100%;
+  width: 58%;
+}
+.product_img {
+  background-color: grey;
+  height: 100%;
+  width: 42%;
+}
+
+
+/*-----App Content styles------*/
+.app_bar {
+  background-color: red;
+  height: 100%;
+  width: 42%;
+}
+.app_img {
+  background-color: lime;
+  height: 100%;
+  width: 58%;
+}
+
+
+/*-----Order Content styles------*/
+.order_bar {
+  background-color: blue;
+  height: 100%;
+  width: 58%;
+}
+.contact_form {
+  background-color: tomato;
+  height: 100%;
+  width: 42%;
+}
+
+/*-----Footer styles-----*/
+.footer_bar {
+  height: 25vh;
+  background-color: grey;
 }
