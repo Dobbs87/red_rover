@@ -4,8 +4,8 @@
   font-family: 'Renner 800 Heavy';
   src: url(fonts/Renner-800-Heavy.otf); }
 @font-face {
-  font-family: 'Renner 600 Semi';
-  src: url("/fonts/OpenType/Renner 600 Semi.otf"); }
+  font-family: 'Pirou-Regular';
+  src: url("/fonts/OpenType/Pirou-Regular.otf"); }
 .hero .main_content {
   display: flex; }
 
@@ -14,7 +14,9 @@ li {
 
 /*-----Header styles------*/
 .hero {
-  background-image: url();
+  background-image: url("/images/desktop_img.jpg");
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   flex-direction: row; }
 
@@ -28,10 +30,10 @@ li {
   transform: rotate(90deg); }
 
 .hero h1 {
-  font: 100% "Renner 600 Semi";
+  font: 100% "Pirou-Regular";
   font-size: 5em;
   padding: 1.5vh;
-  background-color: blue; }
+  color: white; }
 
 nav {
   background-color: purple;
@@ -42,7 +44,7 @@ nav {
     list-style: none; }
     nav ul li {
       padding: 0vh .5vw;
-      font-size: 1.75em; }
+      font-size: 2.25em; }
 
 /*-----Main Content styles------*/
 .main_content {
