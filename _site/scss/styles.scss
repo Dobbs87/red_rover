@@ -2,27 +2,32 @@
 
 /*-----Global Styles-----*/
 @font-face {
-  font-family: 'Renner 800 Heavy';
-  src: url(fonts/Renner-800-Heavy.otf);
+  font-family: 'Altero-Regular';
+  src: url('/fonts/Altero-Regular.otf');
 }
-
 @font-face {
-  font-family: 'Pirou-Regular';
-  src: url('/fonts/OpenType/Pirou-Regular.otf');
+  font-family: 'Renner 300 light';
+  src: url('/fonts/OpenType/Renner 300 light.otf');
 }
-$font-stack: 'Pirou-Regular';
+$main-font: 'Altero-Regular';
+$content-font: 'Renner 300 light';
 
 .hero .main_content {
   display: flex;
   }
+h1 {
+font: 100% $main-font;
+font-size: 5em;
+}
 li {
+  font: 100% $content-font;
   list-style: none;
 }
 
 
 /*-----Header styles------*/
 .hero {
-  background-image: url('/images/desktop_img.jpg');
+  background-image: url('/images/dunes.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -38,21 +43,22 @@ li {
   transform: rotate(90deg);
 }
 .hero h1 {
-  font: 100% $font-stack;
-  font-size: 5em;
+  display: inline;
   padding: 1.5vh;
   color: white;
 }
+
 nav {
-  background-color: purple;
   float: right;
-  margin: -8vh 2vw 0 0;
+  margin: -6vh 2vw 0 0;
   ul {
     display: flex;
     list-style: none;
     li {
-      padding: 0vh .5vw;
-      font-size: 2.25em;
+      padding: 0vh .75vw;
+      font-size: 2.75em;
+      letter-spacing: -.05em;
+      color: white;
     }
   }
 }
